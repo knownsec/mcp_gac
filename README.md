@@ -87,7 +87,10 @@ pip install mcp-server-gac
 The Model Context Protocol Inspector is a tool that helps debug MCP servers by simulating client interactions. You can use it to test your Yunaq GAC MCP server:
 
 ```bash
-python -m mcp_server_gac
+python -m mcp_server_gac.server
+
+# or use the installed script
+mcp-server-gac
 ```
 
 ### Common Issues
